@@ -22,11 +22,11 @@ class AdminController extends Controller
 
     public function show()
     {
-        return view('editprofile');
+        return view('admin.editprofile');
 
     }
 
-
+  
 
 
 

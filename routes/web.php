@@ -39,7 +39,7 @@ Route::get('faq/edit/{id}', [App\Http\Controllers\FaqController::class, 'edit'])
 Route::post('faq/update', [App\Http\Controllers\FaqController::class, 'update']);
 Route::get('faq/restore/{id}', [App\Http\Controllers\FaqController::class, 'restore']);
 Route::get('faq/remove/{id}', [App\Http\Controllers\FaqController::class, 'remove']);
-Route::get('admin/editprofile', [App\Http\Controllers\AdminController::class, 'remove']);
+Route::get('admin/editprofile', [App\Http\Controllers\AdminController::class, 'show']);
 
 Route::post('changepassword', [App\Http\Controllers\AdminController::class, 'changePassword'])->middleware('verified');
 
