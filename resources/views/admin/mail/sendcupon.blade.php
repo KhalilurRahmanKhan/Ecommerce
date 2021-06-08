@@ -1,0 +1,1 @@
+A new cupon named <h3>{{$cupon_name_to_send}}</h3> has been generated!
